@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(_ sender: Any) {
-        label.text = "GRAM"
+        label.text = label.text! + "GRAM"
     }
     
 }
